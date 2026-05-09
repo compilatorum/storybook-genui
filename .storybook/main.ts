@@ -7,7 +7,6 @@ const config: StorybookConfig = {
   ],
   addons: [
     '@storybook/addon-viewport',
-    '@storybook/addon-designs',
     '@storybook/addon-interactions',
     '@storybook/addon-a11y',
   ],
@@ -17,10 +16,6 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: true,
-  },
-  refs: {
-    ui: { title: 'UI', url: 'http://localhost:6007' },
-    'gen-ui': { title: 'GenUI', url: 'http://localhost:6008' },
   },
 }
 
